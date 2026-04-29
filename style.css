@@ -1,0 +1,148 @@
+body{
+    font-family: "Courier", monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 1460px;
+  height: 98vh;
+  margin: auto;
+  padding: 0px 35px 0px 35px;
+  background-color: #e2e6e9;
+  border-radius: 12px;
+}
+
+
+h1{
+  color: #5c159d;
+
+}
+
+.navbar{
+  height: 60px;
+}
+
+.navbar-header{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+hr{
+  width: 100%;
+  color:#acacac;
+  background-color:#acacac;
+  height: 1px;
+  border: none;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.card{
+  width: 320px;
+  height: 335px;
+  border: 1px solid #acacac;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+
+.card img{
+  width: 320px;
+  height: 110px;
+}
+
+.card p{
+      font-size: 0.9rem;
+}
+
+.panel-container{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  min-height: 0;
+  flex-shrink: 2;
+}
+
+.left-panel{
+  background-color: #595959;
+  border-radius: 12px;
+  width: 150px;
+  margin-right: 50px;
+  overflow: auto;
+}
+
+.left-panel button{
+  display: block;
+}
+
+.main-panel{
+  background-color: white;
+  border-radius: 12px;
+  width: 1150px;
+  position: relative;
+  overflow: auto;
+}
+
+.main-img{
+  width: 1150px;
+  height: 615px;
+  border-radius: 17px;
+  padding: 30px 0px 30px 0px;
+  animation-name: fade;
+  animation-duration: 1s;
+  }
+
+.main-panel-buttons{
+position: absolute;
+height: 100%;
+font-size: 2rem;
+background-color: #b3b3b3;
+color: white;
+border: none;
+cursor: pointer;
+opacity: 0.01;
+padding: 10px 15px;
+bottom: 0px;
+}
+
+.main-panel-buttons:hover{
+opacity: 0.4;
+}
+
+.prev{
+  left: 0px;
+}
+
+.next{
+  right: 0px;
+}
+
+@keyframes fade {
+  from{opacity: 0.5}
+  to{opacity: 1}
+}
+
+@media (max-width: 450px) {
+  .container{
+    width: 350px;
+    height: auto;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card{
+    margin-bottom: 5px;
+  }
+}
