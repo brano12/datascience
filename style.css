@@ -74,13 +74,23 @@ hr{
 .left-panel{
   background-color: #595959;
   border-radius: 12px;
-  width: 150px;
+  width: 130px;
   margin-right: 50px;
   overflow: auto;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .left-panel button{
   display: block;
+  border: none;
+  cursor: pointer;
+  background-color: #595959;
+  font-family: "Courier", monospace;
+  font-weight: bold;
+  color: #FFFACD;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .main-panel{
