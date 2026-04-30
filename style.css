@@ -93,6 +93,10 @@ hr{
   margin-top: 10px;
 }
 
+.left-panel button:hover{
+  color: #FA8072;
+}
+
 .main-panel{
   background-color: white;
   border-radius: 12px;
