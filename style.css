@@ -3,16 +3,16 @@ body{
 }
 
 .container{
-  display: flex;
-  flex-direction: column;
   width: 1460px;
-  height: 98vh;
   margin: auto;
   padding: 0px 35px 0px 35px;
   background-color: #e2e6e9;
   border-radius: 12px;
 }
 
+.home{
+  height: 96vh;
+}
 
 h1{
   color: #5c159d;
@@ -76,7 +76,6 @@ hr{
   border-radius: 12px;
   width: 130px;
   margin-right: 50px;
-  overflow: auto;
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -102,7 +101,7 @@ hr{
   border-radius: 12px;
   width: 1150px;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .main-img{
