@@ -1,3 +1,4 @@
+
 body{
     font-family: "Courier", monospace;
 }
@@ -8,6 +9,7 @@ body{
   padding: 5px 35px 10px 35px;
   background-color: #e2e6e9;
   border-radius: 12px;
+  overflow: auto;
 }
 
 .home{
@@ -42,7 +44,6 @@ hr{
 .cards-container {
   display: flex;
   justify-content: flex-start;
-  overflow: auto;
 }
 
 .card{
@@ -76,8 +77,10 @@ hr{
   border-radius: 12px;
   width: 130px;
   margin-right: 50px;
+  /* overflow: auto; */
   padding-left: 20px;
   padding-top: 10px;
+
 }
 
 .left-panel button{
@@ -90,6 +93,7 @@ hr{
   color: #FFFACD;
   font-size: 1rem;
   margin-top: 10px;
+
 }
 
 .left-panel button:hover{
@@ -115,15 +119,15 @@ hr{
 
 .main-panel-buttons{
 position: absolute;
+bottom: 0;
 height: 100%;
 font-size: 2rem;
 background-color: #b3b3b3;
 color: white;
 border: none;
 cursor: pointer;
-opacity: 0.01;
+opacity: 0.02;
 padding: 10px 15px;
-bottom: 0px;
 }
 
 .main-panel-buttons:hover{
