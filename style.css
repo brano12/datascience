@@ -117,6 +117,14 @@ hr{
   animation-duration: 1s;
   }
 
+.page-number{
+  position: absolute;
+  bottom: 10px;
+  right: 75px;
+  color: #696969;
+  font-style: italic;
+}
+
 .main-panel-buttons{
 position: absolute;
 bottom: 0;
