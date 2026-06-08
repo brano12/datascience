@@ -173,6 +173,20 @@ opacity: 0.4;
   .card{
     margin-bottom: 5px;
   }
+
+  .left-panel {
+    padding-right: 15px;
+  }
+
+  .main-img{
+    width: 610px;
+    height: 450px;
+    border-radius: 17px;
+    padding: 15px 0px 15px 0px;
+    animation-name: fade;
+    animation-duration: 1s;
+    }
+
 }
 
 
