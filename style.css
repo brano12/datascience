@@ -1,3 +1,6 @@
+/* *{
+  outline: 1px solid green;
+} */
 
 body{
     font-family: "Courier", monospace;
@@ -155,7 +158,25 @@ opacity: 0.4;
   to{opacity: 1}
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 1250px) {
+  .container{
+    width: 950px;
+    height: auto;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    margin-bottom: 5px;
+  }
+}
+
+
+@media (max-width: 490px) {
   .container{
     width: 350px;
     height: auto;
