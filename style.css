@@ -78,10 +78,9 @@ hr{
 .left-panel{
   background-color: #595959;
   border-radius: 12px;
-  width: 130px;
   margin-right: 50px;
-  /* overflow: auto; */
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
 
 }
